@@ -204,7 +204,7 @@ textarea:not([rows]) {
 	flex-direction: row;
 }
 .image-desktop{
-	background-image: url('/assets/images/image-web-3-desktop.jpg');
+	background-image: url('image-web-3-desktop.jpg');
 	min-height: 20rem;
 	max-width: 53rem;
 }
@@ -274,7 +274,7 @@ textarea:not([rows]) {
 	}
 
 	.image-desktop{
-		background-image: url('/assets/images/image-web-3-mobile.jpg');
+		background-image: url('image-web-3-mobile.jpg');
 	}
 	.image-retro-changes{
 		max-height: 12rem;
@@ -324,7 +324,7 @@ box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
 		top: 6rem;
 		right: 2rem;
 		z-index: 9999;
-		background-image: url("/assets/images/icon-menu.svg");
+		background-image: url("icon-menu.svg");
 		width: 3rem;
 		aspect-ratio: 2;
 		background-color: transparent;
@@ -332,7 +332,7 @@ box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
 		background-repeat: no-repeat;
 	}
 	.mobile-nav[aria-expanded="true"]{
-		background-image: url("/assets/images/icon-menu-close.svg");
+		background-image: url("icon-menu-close.svg");
 		width: 3rem;
 		aspect-ratio: 1;
 	}
